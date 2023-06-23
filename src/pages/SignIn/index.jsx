@@ -1,9 +1,42 @@
-import { Container } from "./style"
+import { FiMail, FiLock } from "react-icons/fi"
 
-export default function SignIn(){
-  return(
+import { Container, Form, Background } from "./style"
+import { Input } from "../../components/input"
+import { Button } from "../../components/button"
+
+export default function SignIn() {
+  return (
     <Container>
-      
+      <main>
+        <h1>RocketMovies</h1>
+        <p>Aplicação para acompanhar tudo que assistir.</p>
+
+        <Form>
+          <h2>Faça seu login</h2>
+
+          <Input
+            id="email"
+            icon={FiMail}
+            type="mail"
+            placeholder="E-mail"
+            autoComplete="off"
+          />
+
+          <Input
+            id="password"
+            icon={FiLock}
+            type="password"
+            placeholder="Senha"
+            autoComplete="on"
+          />
+
+          <Button title="Salvar" type="submit" loading={false} />
+        </Form>
+
+        <a href="#">Criar Conta</a>
+      </main>
+
+      <Background />
     </Container>
   )
 }

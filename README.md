@@ -1,4 +1,4 @@
-<h1 align="center"> Stage 09 - Frontend - Biblioteca ReactJS - Desafio Rocket Movies</h1>
+<h1 align="center"> Stage9 - Frontend - ReactJS - Desafio Rocket Movies</h1>
 
 <p align="center">
   <a href="#-tecnologias">👨‍💻 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
