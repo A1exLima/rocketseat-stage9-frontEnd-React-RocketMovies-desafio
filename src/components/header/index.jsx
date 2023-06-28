@@ -1,6 +1,7 @@
 import { Container, Brand, Profile } from "./style"
 import { Input } from "../../components/input"
 
+
 export function Header(){
   return (
     <Container>
@@ -10,7 +11,7 @@ export function Header(){
 
       <Input icon={""} placeholder="Pesquisar pelo título" type="text" />
 
-      <Profile>
+      <Profile to="/profile">
         <div>
           <h2>Alex da Silva Lima</h2>
           <p>sair</p>
