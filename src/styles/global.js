@@ -32,16 +32,16 @@ export default createGlobalStyle`
     transition: filter 0.4s;
 
     &:hover{
-      filter: brightness(0.8);
+      filter: brightness(0.7);
     }
   }
 
- input {
-    filter: brightness(0.6);
-    transition: filter 0.4s;
-
-    &:hover{
-      filter: brightness(1);
-    }
+  input {
+    border: none;
+    outline: none;
   }
+
+
+
+
 `

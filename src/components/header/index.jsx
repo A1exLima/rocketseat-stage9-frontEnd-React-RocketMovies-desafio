@@ -5,7 +5,7 @@ import { Input } from "../../components/input"
 export function Header(){
   return (
     <Container>
-      <Brand>
+      <Brand to="/">
         <h1>RocketMovies</h1>
       </Brand>
 

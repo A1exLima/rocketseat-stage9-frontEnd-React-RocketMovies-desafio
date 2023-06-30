@@ -6,6 +6,7 @@ export default {
     BACKGROUND_300: "#1C1B1E",
     BACKGROUND_300_70: "#1C1B1EB2",
 
+    BLACK: "#0D0C0F",
     WHITE: "#F4EDE8",
 
     GRAY_100: "#CAC4CF",
@@ -17,6 +18,7 @@ export default {
 
     TEXT: "#999591",
     TEXT_TAG: "#E5E5E5",
+    
   },
 
   FONTS: {

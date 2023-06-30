@@ -1,9 +1,11 @@
 import { FiPlus } from "react-icons/fi"
 
 import { Container, Section, MoviePlus, Content, Notes } from "./style"
+
 import { Header } from "../../components/header"
-import { Button } from "../../components/button"
 import { Note } from "../../components/note"
+
+import { Link } from "react-router-dom"
 
 export default function Home() {
   return (
@@ -15,7 +17,10 @@ export default function Home() {
       </Section>
 
       <MoviePlus>
-        <Button icon={FiPlus} title="Adicionar filme" loading={false} />
+        <Link to="/new">
+          <FiPlus />
+          Adicionar filme
+        </Link>
       </MoviePlus>
 
       <Content>

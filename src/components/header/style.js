@@ -25,7 +25,7 @@ export const Container = styled.header`
   }
 `
 
-export const Brand = styled.div`
+export const Brand = styled(Link)`
 
   > h1 {
     color: ${({ theme }) => theme.COLORS.LILAS};

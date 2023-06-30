@@ -20,8 +20,6 @@ export const Container = styled.div`
     width: 100%;
     height: 100%;
     background: transparent;
-    border: none;
-    outline: none;
     padding: 1.8rem 1.6rem 1.88rem 1.6rem;
 
     font-size: 1.6rem;

@@ -33,9 +33,26 @@ export const MoviePlus = styled.div`
 
   padding: 4.738rem 10.6rem 3.745rem 0;
 
-  > button {
-    width: 20.7rem;
+  > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+
     height: 4.8rem;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    background-color: ${({ theme }) => theme.COLORS.LILAS};
+
+    color: ${({ theme }) => theme.COLORS.BACKGROUND_300};
+    font-weight: 500;
+    font-size: 1.6rem;
+
+    > svg {
+      margin-top: 0.2rem;
+      font-size: 2rem;
+      color: ${({ theme }) => theme.COLORS.BACKGROUND_300};
+    }
   }
 `
 
