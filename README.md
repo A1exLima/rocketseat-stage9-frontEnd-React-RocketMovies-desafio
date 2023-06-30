@@ -5,18 +5,9 @@
   <a href="#-projeto">📄 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">📱 Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">🪪 Licença</a></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">☁️ Deploy</a>
 </p>
 
 <br>
-
-<p align="center">
-  <img alt="Avançando no JavaScript" src="./public/images/readme/1.jpg" width="75%">
-  </p>
-  <p align="center">
-  <img alt="Avançando no JavaScript" src="./public/images/readme/3.jpg" width="75%">
-  </p>  
-
 
 ## 👨‍💻 Tecnologias
 
@@ -24,6 +15,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - Java Script
+- ReactJS
+- Vite
 - Git e Github
 - Figma
 
@@ -32,40 +25,34 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 📄 Projeto
 
-<p align="start"> 
+<p align="start">
+Desenvolvimento do projeto front-end MoviesNotes, app que cria notas de filmes, usando a biblioteca ReactJS.
+
 O que foi abordado nesse desafio:
 
-- Tabelas
-- Classes e Herança
-- Imutabilidade de dados
-- Local Storage
-- Promises Async Await
-- Try Catch e Throw
-- Orientação a objetos;
-- Classes e muito mais.
-- API (Application Programming Interface) - GitHub
-  
+- Estrutura de pastas do projeto
+- Funcionamento do React
+- JSX
+- Fragment
+- Css in JS
+- Temas
+- Estilo Global
+- Componentes
+- Propriedades
+- Rotas React-router
 </p>
 
 <br>
 
 ## 📱 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](<https://efficient-sloth-d85.notion.site/GitFav-f8ff1c18b23745c0b46cd8d61f74b596>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.figma.com/file/RHoYG5npcSsh9yk5L4MkGP/RocketMovies-(Copy)?node-id=0%3A1&mode=dev>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 <br>
 
 ## 🪪 Licença
 
 Esse projeto está sob a licença MIT.
-
-<br>
-
-## ☁️ Deploy
-
-<p>Você pode acessar o Website do projeto através do link: 
-<a href= "https://a1exlima.github.io/rocketseat-stage6-desafio-gitfav/" target="_blank"> Clique aqui ⏯ </a>
-</p>
 
 <br>
 
