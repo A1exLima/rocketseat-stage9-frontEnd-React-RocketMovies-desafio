@@ -36,7 +36,7 @@ export function Header(){
           type="button" 
           onClick={handleHome}
         >
-          RocketMovies
+          RocketMovies teste
         </button>
       </Brand>
 
