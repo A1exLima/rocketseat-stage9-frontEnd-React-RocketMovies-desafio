@@ -22,7 +22,7 @@ export const Container = styled.div`
     align-items: center;
     gap: 0.8rem;
 
-    padding: 4rem 0 2.4rem 12.3rem;
+    padding: 4rem 20rem 2.4rem 20rem;
 
     > svg {
       font-size: 1.6rem;
@@ -39,7 +39,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   grid-area: content;
   width: 100%;
-  padding: 0 10.6rem 15.6rem 12.3rem;
+  padding: 0 20rem 15.6rem 20rem;
 
   > div {
     width: 100%;

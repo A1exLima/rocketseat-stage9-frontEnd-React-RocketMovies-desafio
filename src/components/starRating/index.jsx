@@ -1,6 +1,6 @@
 import { FiStar } from "react-icons/fi"
 
-export const StarRating = ({ value }) => {
+export function StarRating({ value }) {
 
   const renderStars = () => {
     const stars = []
@@ -8,7 +8,7 @@ export const StarRating = ({ value }) => {
 
     for (let i = 0; i < maxStars; i++) {
       const starColor = i < value ? "on" : "off"
-      stars.push(<li key={i} className={`star-${starColor}`}> <FiStar/> </li>)
+      stars.push(<li key={i} className={`star-${starColor}`}> <FiStar /> </li>)
     }
 
     return stars

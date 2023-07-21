@@ -18,7 +18,11 @@ export const Container = styled.div`
     grid-area: return;
 
     width: 100%;
-    padding: 4rem 0 2.4rem 12.3rem;
+    padding: 4rem 20rem 2.4rem 20rem;
+
+    @media (min-width:1367px){
+      padding: 4rem 35rem 2.4rem 35rem;
+    }
 
     > a {
       display: flex;
@@ -42,7 +46,11 @@ export const Container = styled.div`
 export const Content = styled.div`
   grid-area: content;
   width: 100%;
-  padding: 0 10.6rem 15.6rem 12.3rem;
+  padding: 0 20rem 15.6rem 20rem;
+
+  @media (min-width:1367px){
+	  padding: 0 35rem 15.6rem 35rem;
+  }
 
   > div {
     width: 100%;
@@ -105,8 +113,6 @@ export const Form = styled.form`
     border: 0;
     outline: none;
     resize: none;
-
-    cursor: pointer;
 
     &::placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_200};

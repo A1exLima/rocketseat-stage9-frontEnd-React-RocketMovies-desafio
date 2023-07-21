@@ -1,4 +1,4 @@
-import { StarRating } from "../../javaScript/starRating"
+import {StarRating} from "../../components/starRating/"
 import { Tag } from "../../components/tag"
 import { Container } from "./style"
 

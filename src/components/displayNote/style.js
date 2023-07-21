@@ -11,11 +11,15 @@ export const Container = styled.div`
     align-items: center;
     gap: 1.9rem;
     margin-bottom: 2.4rem;
+    width: 100%;
+    height: 3.6rem;
 
     > h1 {
       color: ${({ theme }) => theme.COLORS.WHITE};
       font-size: 3.6rem;
       font-weight: 500;
+      white-space: nowrap;
+
     }
 
     > ul {
@@ -40,6 +44,20 @@ export const Container = styled.div`
         svg {
           color: ${({ theme }) => theme.COLORS.LILAS};
         }
+      }
+    }
+
+    button {
+      background: none;
+      border: none;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      
+      > svg{
+        fill: ${({ theme }) => theme.COLORS.LILAS};
+        font-size: 4rem;
       }
     }
   }

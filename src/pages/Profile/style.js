@@ -81,11 +81,12 @@ export const Avatar = styled.div`
     align-items: center;
     justify-content: center;
 
+    filter: brightness(0.8);
     cursor: pointer;
     transition: filter 0.45s;
 
     &:hover {
-      filter: brightness(0.8);
+      filter: brightness(1);
     }
 
     > svg {

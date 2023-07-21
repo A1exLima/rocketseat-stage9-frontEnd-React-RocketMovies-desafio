@@ -59,7 +59,7 @@ export const Form = styled.form`
     margin-bottom: 0.8rem;
   }
 
-  > :nth-child(4) {
+  > :nth-child(5) {
     margin-bottom: 0;
   }
 
