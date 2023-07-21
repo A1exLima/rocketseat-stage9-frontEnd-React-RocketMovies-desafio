@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 📄 Projeto
 
 <p align="start">
-Desenvolvimento projeto front-end MoviesNotes, aplicação que cria nota de filmes, usando a biblioteca ReactJS.
+Desenvolvimento projeto front-end Rocket Movies, aplicação que cria nota de filmes, usando a biblioteca ReactJS.
 
 <p align="center">
   <img alt="Aplicação front-end" src="./src/images/1.png" width="85%">
