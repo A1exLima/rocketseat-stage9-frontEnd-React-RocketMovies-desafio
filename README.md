@@ -1,5 +1,9 @@
-<h1 align="center"> Stage9 - Frontend - ReactJS - Desafio Rocket Movies</h1>
-
+<h1 align="center"> Stage 09 - Desenvolvimento Front-End Aplicação Lista de Filmes</h1>
+<br>
+<p align="center">Você pode acessar o projeto Back-End através do link: 
+  <a href= "https://github.com/A1exLima/rocketseat-stage8-backend-desafio" target="_blank"> Clique aqui ⏯ </a>
+</p>
+<br>
 <p align="center">
   <a href="#-tecnologias">👨‍💻 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">📄 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -13,10 +17,13 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
+- HTML
+- CSS
 - Java Script
-- ReactJS
-- Vite
+- React JS (react, react-dom, react-icons, react-router-dom)
+- Styled-components
+- Vite (devDependencies)
+- Axios
 - Git e Github
 - Figma
 
@@ -26,7 +33,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 📄 Projeto
 
 <p align="start">
-Desenvolvimento do projeto front-end MoviesNotes, app que cria notas de filmes, usando a biblioteca ReactJS.
+Desenvolvimento projeto front-end MoviesNotes, aplicação que cria nota de filmes, usando a biblioteca ReactJS.
+
+<p align="center">
+  <img alt="Aplicação front-end" src="./src/images/1.png" width="75%">
+</p>
+<br>
+<p align="center">
+  <img alt="Aplicação front-end" src="./src/images/2.png" width="75%">
+</p>
 
 O que foi abordado nesse desafio:
 
