@@ -36,11 +36,23 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Desenvolvimento projeto front-end MoviesNotes, aplicação que cria nota de filmes, usando a biblioteca ReactJS.
 
 <p align="center">
-  <img alt="Aplicação front-end" src="./src/images/1.png" width="75%">
+  <img alt="Aplicação front-end" src="./src/images/1.png" width="85%">
 </p>
 <br>
 <p align="center">
-  <img alt="Aplicação front-end" src="./src/images/2.png" width="75%">
+  <img alt="Aplicação front-end" src="./src/images/2.png" width="85%">
+</p>
+<br>
+<p align="center">
+  <img alt="Aplicação front-end" src="./src/images/3.png" width="85%">
+</p>
+<br>
+<p align="center">
+  <img alt="Aplicação front-end" src="./src/images/4.png" width="85%">
+</p>
+<br>
+<p align="center">
+  <img alt="Aplicação front-end" src="./src/images/5.png" width="85%">
 </p>
 
 O que foi abordado nesse desafio:
