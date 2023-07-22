@@ -31,22 +31,27 @@ export function Header(){
 
   return (
     <Container>
-      <Brand>
-        <button 
-          type="button" 
-          onClick={handleHome}
-        >
-          RocketMovies teste
-        </button>
-      </Brand>
+      
+      <div className="container">
+        <Brand>
+          <button 
+            type="button" 
+            onClick={handleHome}
+          >
+            RocketMovies
+          </button>
+        </Brand>
+        
+        <Input
+  
+            icon={""} 
+            placeholder="Pesquisar pelo título" 
+            type="text"
+            onChange={e => setSearch(e.target.value)} 
+          />
 
-      <Input 
-        icon={""} 
-        placeholder="Pesquisar pelo título" 
-        type="text"
-        onChange={e => setSearch(e.target.value)} 
-      />
-
+      </div>
+      
       <Profile >
         <div>
           <h2 onClick={handleProfile} >{user.name}</h2>
@@ -56,8 +61,8 @@ export function Header(){
         <a onClick={handleProfile}>
           <img src={avatarUrl} alt={user.name} />
         </a>
-        
       </Profile>
+      
     </Container>
   )
 }

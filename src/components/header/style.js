@@ -1,5 +1,4 @@
 import { styled } from "styled-components"
-import { Link } from "react-router-dom"
 
 export const Container = styled.header`
   width: 100%;
@@ -14,13 +13,21 @@ export const Container = styled.header`
   border-bottom: 0.1rem solid ${({ theme }) => theme.COLORS.BACKGROUND_050};
   padding: 2.4rem 12.3rem;
 
-  > div:nth-child(2) {
-    max-width: 63rem;
-    height: 5.6rem;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.4rem;
+    width: 100%;
 
-    > input {
-      font-size: 1.4rem;
-      padding: 1.9rem 2.4rem;
+    > div:nth-child(2){
+      > input {
+        font-size: clamp(1.4rem, 1.4vw, 1.6rem);
+
+        @media (min-width:1367px){
+          width: 70%;
+        }
+      }
     }
   }
 `
@@ -35,6 +42,10 @@ export const Brand = styled.div`
     background: none;
     filter: brightness(1);
   }
+
+  @media (max-width:1000px){
+      display: none;
+    }
 `
 
 export const Profile = styled.div`
