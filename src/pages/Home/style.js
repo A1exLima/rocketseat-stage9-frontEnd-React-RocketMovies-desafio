@@ -131,7 +131,6 @@ export const Notes = styled.div`
   height: 55vh;
 
   @media (max-width:1000px){
-    height: 80vh;
     padding-top: 1rem;
   }
 
