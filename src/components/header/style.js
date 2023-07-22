@@ -15,7 +15,7 @@ export const Container = styled.header`
 
   @media (max-width:1000px){
     padding: 1.8rem 1.8rem;
-    gap: 3.4rem;
+    gap: 1.4rem;
   }
 
   .container {

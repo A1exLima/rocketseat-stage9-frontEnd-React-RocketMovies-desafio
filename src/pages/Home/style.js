@@ -23,6 +23,9 @@ export const Container = styled.div`
   }
 
   @media (max-width:1000px){
+
+    grid-template-rows: 11.6rem 8.7rem auto;
+
     .new_on{
       display: none;
     }
@@ -53,7 +56,11 @@ export const Section = styled.div`
   @media (max-width:1000px){
     display: flex;
     justify-content: start;
-    padding: 4.738rem 0 3.745rem 1.8rem;
+    padding: 2rem 0 2rem 1.8rem;
+  }
+
+  @media (min-width:1366px){
+	  padding: 4.738rem 0 3.745rem 30rem;
   }
 
   > h2 {
@@ -61,11 +68,6 @@ export const Section = styled.div`
     font-size: 3.2rem;
     
   }
-
-  @media (min-width:1366px){
-	  padding: 4.738rem 0 3.745rem 30rem;
-  }
-  
 `
 
 export const MoviePlus = styled.div`
@@ -75,7 +77,7 @@ export const MoviePlus = styled.div`
   @media (max-width:1000px){
     display: flex;
     justify-content: end;
-    padding: 4.738rem 2.8rem 3.745rem 0;
+    padding: 2rem 2.8rem 2rem 0;
   }
 
   > a {
@@ -120,12 +122,17 @@ export const Content = styled.div`
 
   @media (max-width:1000px){
     padding: 0 1rem 5.864rem 1.8rem;
+    align-items: start;
   }
 `
 
 export const Notes = styled.div`
   width: 100%;
   height: 55vh;
+
+  @media (max-width:1000px){
+    height: 100vh;
+  }
 
   overflow-y: auto;
   padding-right: 0.8rem;
@@ -140,11 +147,26 @@ export const Notes = styled.div`
 
     @media (max-width:1000px){
       background-color: transparent;
-  }
+      
+    }
   }
 
   > button:last-child {
     margin-bottom: 0;
+  }
+
+  > button{
+    
+    @media (max-width:1000px){
+      padding: 2.2rem;
+
+      > div {
+        gap: 0.5rem;
+        > span{
+          font-size: 1.2rem;
+        }
+      }
+    }
   }
 
 `
