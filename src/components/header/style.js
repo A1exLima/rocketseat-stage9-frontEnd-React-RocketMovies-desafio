@@ -14,7 +14,7 @@ export const Container = styled.header`
   padding: 2.4rem 12.3rem;
 
   @media (max-width:1000px){
-    padding: 1rem 1rem;
+    padding: 1.8rem 1.8rem;
     gap: 3.4rem;
   }
 
@@ -75,6 +75,10 @@ export const Profile = styled.div`
 
       &:hover{
         filter: brightness(1);
+      }
+
+      @media (max-width:1000px){
+        display: none;
       }
     }
 

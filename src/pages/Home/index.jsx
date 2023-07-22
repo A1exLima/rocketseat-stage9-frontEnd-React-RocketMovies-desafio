@@ -23,9 +23,13 @@ export default function Home() {
       </Section>
 
       <MoviePlus>
-        <Link to="/new">
+        <Link className="new_on" to="/new">
           <FiPlus />
           Adicionar filme
+        </Link>
+
+        <Link className="new_off" to="/new">
+          <FiPlus />
         </Link>
       </MoviePlus>
 
