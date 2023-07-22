@@ -13,6 +13,11 @@ export const Container = styled.header`
   border-bottom: 0.1rem solid ${({ theme }) => theme.COLORS.BACKGROUND_050};
   padding: 2.4rem 12.3rem;
 
+  @media (max-width:1000px){
+    padding: 1rem 1rem;
+    gap: 3.4rem;
+  }
+
   .container {
     display: flex;
     align-items: center;
@@ -45,7 +50,7 @@ export const Brand = styled.div`
 
   @media (max-width:1000px){
       display: none;
-    }
+  }
 `
 
 export const Profile = styled.div`
