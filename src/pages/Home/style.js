@@ -132,6 +132,7 @@ export const Notes = styled.div`
 
   @media (max-width:1000px){
     padding-top: 1rem;
+    height: 65vh;
   }
 
   overflow-y: auto;
