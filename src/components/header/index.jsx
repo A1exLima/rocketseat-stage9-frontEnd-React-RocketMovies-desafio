@@ -3,6 +3,7 @@ import { Input } from "../../components/input"
 import { useAuth } from "../../hooks/auth"
 import { api } from "../../services/api"
 import avatarPlaceholder from "../../../assets/avatar_placeholder.svg"
+import logo from "../../images/logo.png"
 import { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom"
 
@@ -38,12 +39,13 @@ export function Header(){
             type="button" 
             onClick={handleHome}
           >
-            RocketMovies
+            <img src={logo} alt="logo rocket movies" />ocketMovies
           </button>
+          
         </Brand>
         
         <Input
-  
+
             icon={""} 
             placeholder="Pesquisar pelo título" 
             type="text"

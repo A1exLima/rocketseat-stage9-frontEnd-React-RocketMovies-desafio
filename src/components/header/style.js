@@ -46,6 +46,12 @@ export const Brand = styled.div`
     border: none;
     background: none;
     filter: brightness(1);
+
+    display: flex;
+
+    > img {
+      width: 2.5rem;
+    }
   }
 
   @media (max-width:1000px){
