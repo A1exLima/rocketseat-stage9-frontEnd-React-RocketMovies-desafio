@@ -34,24 +34,24 @@ export function Header(){
     <Container>
       
       <div className="container">
+
         <Brand>
-          <button 
-            type="button" 
-            onClick={handleHome}
-          >
-            <img src={logo} alt="logo rocket movies" />ocketMovies
-          </button>
+          <button type="button" onClick={handleHome}>
           
+          <div className="img1">
+            <img src={logo} alt="logo rocket movies" />
+            <p>ocketMovies</p> 
+          </div>
+          
+          </button>
         </Brand>
         
         <Input
-
-            icon={""} 
-            placeholder="Pesquisar pelo título" 
-            type="text"
-            onChange={e => setSearch(e.target.value)} 
-          />
-
+          icon={""} 
+          placeholder="Pesquisar pelo título" 
+          type="text"
+          onChange={e => setSearch(e.target.value)} 
+        />
       </div>
       
       <Profile >

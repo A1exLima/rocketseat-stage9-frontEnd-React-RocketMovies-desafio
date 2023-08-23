@@ -25,6 +25,10 @@ export const Container = styled.header`
     gap: 6.4rem;
     width: 100%;
 
+    @media (max-width:1000px){
+      gap: 1.4rem;
+    }
+
     > div:nth-child(2){
       > input {
         font-size: clamp(1.4rem, 1.4vw, 1.6rem);
@@ -35,6 +39,7 @@ export const Container = styled.header`
       }
     }
   }
+
 `
 
 export const Brand = styled.div`
@@ -49,21 +54,37 @@ export const Brand = styled.div`
 
     display: flex;
 
-    > img {
-      width: 2.3rem;
+    .img1{
+      display: flex;
+
+      img {
+        width: 2.3rem;
+      }
     }
+    
   }
 
   @media (max-width:1000px){
+    width: 10%;
+    display: flex;
+    justify-content: center;
+
+    .img1 > p{
       display: none;
+    }
   }
 `
 
 export const Profile = styled.div`
   display: flex;
   align-items: center;
-  
   gap: 0.9rem;
+
+  @media (max-width:1000px){
+    flex-direction: column-reverse;
+    gap: 0;
+
+  }
 
   > div {
     
@@ -94,6 +115,10 @@ export const Profile = styled.div`
       color: ${({ theme }) => theme.COLORS.GRAY_200};
       font-size: 1.4rem;
       text-align: end;
+
+      @media (max-width:1000px){
+        display: none;
+      }
     }
   }
 
