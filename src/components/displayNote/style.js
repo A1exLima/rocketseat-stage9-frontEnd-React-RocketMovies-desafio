@@ -74,6 +74,7 @@ export const Container = styled.div`
       border: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_050};
       width: 1.6rem;
       height: 1.6rem;
+      object-fit: cover;
     }
 
     > p {

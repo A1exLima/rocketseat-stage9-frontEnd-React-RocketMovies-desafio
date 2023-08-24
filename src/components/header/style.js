@@ -117,7 +117,8 @@ export const Profile = styled.div`
       text-align: end;
 
       @media (max-width:1000px){
-        display: none;
+        font-size: 1.2rem;
+        display: flex;
       }
     }
   }
@@ -125,7 +126,13 @@ export const Profile = styled.div`
   > a > img {
     width: 6.4rem;
     height: 6.4rem;
+    object-fit: cover;
     border-radius: 50%;
     border: 0.1rem solid ${({ theme }) => theme.COLORS.BACKGROUND_050};
+
+    @media (max-width:1000px){
+      width: 4.4rem;
+      height: 4.4rem;
+    }
   }
 `
