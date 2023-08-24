@@ -8,7 +8,9 @@
   <a href="#-tecnologias">👨‍💻 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">📄 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">📱 Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">🪪 Licença</a></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">🪪 Licença</a>
+  <a href="#-licença">☁️ Deploy</a>
+  </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -80,6 +82,14 @@ Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.fig
 ## 🪪 Licença
 
 Esse projeto está sob a licença MIT.
+
+<br>
+
+## ☁️ Deploy
+
+<p>Você pode acessar o Website do projeto através do link: 
+<a href= "https://rocketmovienotes.netlify.app/" target="_blank"> Clique aqui ⏯ </a>
+</p>
 
 <br>
 
