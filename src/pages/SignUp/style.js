@@ -7,12 +7,20 @@ export const Container = styled.div`
   display: flex;
   align-items: stretch;
 
+  @media(max-width: 1000px){
+    justify-content: center;
+  }
+
   > main {
     margin: 0 16.3rem 0 13.4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @media(max-width: 1000px){
+      margin: 0;
+    }
 
     > h1 {
       color: ${({ theme }) => theme.COLORS.LILAS};
@@ -72,4 +80,8 @@ export const Background = styled.div`
   flex: 1;
   background: url(${background}) no-repeat center center;
   background-size: cover;
+
+  @media(max-width: 1000px){
+    display: none;
+  }
 `
