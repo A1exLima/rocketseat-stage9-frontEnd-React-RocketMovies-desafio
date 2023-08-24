@@ -16,6 +16,10 @@ export const Header = styled.header`
   padding: 6.4rem 0 5.9rem 16.8rem;
   background-color: ${({ theme }) => theme.COLORS.NOTE};
 
+  @media (max-width:1000px){
+      padding: 6.4rem 0 5.9rem 1.8rem;
+    }
+
   > a {
     display: flex;
     align-items: center;
@@ -33,7 +37,13 @@ export const Header = styled.header`
     }
 
     @media (max-width:1000px){
-      display: none;
+      p{
+        display: none;
+      }
+
+      > svg {
+      font-size: 2.8rem;
+    }
     }
   }
 `

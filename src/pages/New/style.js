@@ -24,6 +24,10 @@ export const Container = styled.div`
       padding: 4rem 35rem 2.4rem 35rem;
     }
 
+    @media (max-width:1000px){
+      padding: 4rem 3rem 2.4rem 3rem;
+    }
+
     > a {
       display: flex;
       align-items: center;
@@ -52,6 +56,10 @@ export const Content = styled.div`
 	  padding: 0 35rem 15.6rem 35rem;
   }
 
+  @media (max-width:1000px){
+      padding: 0rem 3rem 2.4rem 3rem;
+    }
+
   > div {
     width: 100%;
     height: 60vh;
@@ -78,6 +86,15 @@ export const Content = styled.div`
       }
 
       margin-bottom: 1rem;
+
+      @media (max-width:555px){
+        gap: 1rem;
+
+        > button{
+          font-size: 1.5rem;
+        }
+      }
+      
     }
   }
 `
@@ -90,12 +107,23 @@ export const Form = styled.form`
     font-size: 3.6rem;
     font-weight: 500;
     padding: 1.5rem 0 2.5rem 0;
+
+    @media (max-width:555px){
+      font-size: 2.9rem;
+    }
   }
 
   > div {
     display: flex;
     gap: 2.5rem;
     padding-bottom: 2.5rem;
+
+    @media (max-width:555px){
+
+      flex-direction: column;
+      gap: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
   }
 
   > textarea {
@@ -138,6 +166,10 @@ export const Markers = styled.div`
     width: 100%;
     border-radius: 0.8rem;
     background-color: ${({ theme }) => theme.COLORS.BLACK};
+
+    @media (max-width:555px){
+      justify-content: center;
+    }
 
   }
 `
