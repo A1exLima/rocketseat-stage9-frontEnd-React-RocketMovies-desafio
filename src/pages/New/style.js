@@ -171,7 +171,7 @@ export const Markers = styled.div`
       grid-template-columns: repeat(auto-fill, 30rem);
     }
 
-    @media (max-width:420px){
+    @media (max-width:410px){
       justify-content: center;
       grid-template-columns: repeat(auto-fill, 25rem);
     }
