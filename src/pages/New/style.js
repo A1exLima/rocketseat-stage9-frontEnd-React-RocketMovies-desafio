@@ -94,7 +94,6 @@ export const Content = styled.div`
           font-size: 1.5rem;
         }
       }
-      
     }
   }
 `
@@ -169,6 +168,8 @@ export const Markers = styled.div`
 
     @media (max-width:555px){
       justify-content: center;
+      grid-template-columns: repeat(auto-fill, 25rem);
+
     }
 
   }
