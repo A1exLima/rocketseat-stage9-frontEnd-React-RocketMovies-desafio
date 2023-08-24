@@ -6,6 +6,11 @@ export const Container = styled.div`
   display: flex;
   align-items: stretch;
 
+  @media(max-width: 1000px){
+    justify-content: center;
+  }
+  
+
   > main {
     margin: 0 16.3rem 0 13.4rem;
     display: flex;
@@ -32,6 +37,10 @@ export const Container = styled.div`
       color: ${({ theme }) => theme.COLORS.LILAS};
       font-size: 1.6rem;
     }
+
+    @media(max-width: 1000px){
+      margin: 0;
+    }
   }
 `
 
@@ -57,4 +66,8 @@ export const Background = styled.div`
   flex: 1;
   background: url(${background}) no-repeat center center;
   background-size: cover;
+
+  @media(max-width: 1000px){
+    display: none;
+  }
 `

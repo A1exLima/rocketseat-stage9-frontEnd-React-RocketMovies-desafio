@@ -5,6 +5,7 @@ import { Input } from "../../components/input"
 import { Button } from "../../components/button"
 import { Link } from "react-router-dom"
 import { useAuth } from "../../hooks/auth"
+import logo from "../../images/logo.png"
 
 export default function SignIn() {
   const [ email, setEmail] = useState("")
