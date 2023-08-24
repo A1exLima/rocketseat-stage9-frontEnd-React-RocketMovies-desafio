@@ -57,7 +57,7 @@ export const Content = styled.div`
   }
 
   @media (max-width:1000px){
-      padding: 0rem 3rem 2.4rem 3rem;
+      padding: 0rem 3rem 2.4rem 3.8rem;
     }
 
   > div {
@@ -73,7 +73,7 @@ export const Content = styled.div`
 
     &::-webkit-scrollbar-thumb {
       border-radius: 0.8rem;
-      background-color: ${({ theme }) => theme.COLORS.LILAS};
+      background-color: transparent;
     }
 
     > div:nth-child(3) {
@@ -168,8 +168,12 @@ export const Markers = styled.div`
 
     @media (max-width:555px){
       justify-content: center;
-      grid-template-columns: repeat(auto-fill, 25rem);
+      grid-template-columns: repeat(auto-fill, 30rem);
+    }
 
+    @media (max-width:420px){
+      justify-content: center;
+      grid-template-columns: repeat(auto-fill, 25rem);
     }
 
   }
