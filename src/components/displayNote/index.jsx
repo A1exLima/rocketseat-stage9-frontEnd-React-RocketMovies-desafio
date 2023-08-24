@@ -39,12 +39,15 @@ export function DisplayNote(data){
       </div>
 
       <div>
-        <img src={avatarUrl} alt={user.name} />
-        <p>Por {user.name}</p>
-        <FiClock />
-        <p>
-          {`${hourAndDate[0]} às ${hourAndDate[1]}`}
-        </p>
+        <div>
+          <img src={avatarUrl} alt={user.name} />
+          <p>Por {user.name}</p>
+        </div>
+        
+        <div>
+          <FiClock />
+          <p> {`${hourAndDate[0]} às ${hourAndDate[1]}`} </p>
+        </div>
       </div>
 
       {note.movieTags && (

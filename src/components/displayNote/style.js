@@ -20,6 +20,9 @@ export const Container = styled.div`
       font-weight: 500;
       white-space: nowrap;
 
+      @media(max-width: 1000px){
+          font-size: 2.5rem;
+      }
     }
 
     > ul {
@@ -32,6 +35,10 @@ export const Container = styled.div`
         align-items: center;
         color: ${({ theme }) => theme.COLORS.LILAS};
         font-size: 2rem;
+
+        @media(max-width: 1000px){
+          font-size: 1.5rem;
+        }
       }
 
       .star-on {
@@ -58,6 +65,10 @@ export const Container = styled.div`
       > svg{
         fill: ${({ theme }) => theme.COLORS.LILAS};
         font-size: 4rem;
+
+        @media(max-width: 1000px){
+          font-size: 2.5rem;
+        }
       }
     }
   }
@@ -65,11 +76,15 @@ export const Container = styled.div`
   > div:nth-child(2) {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     gap: 0.8rem;
     margin-bottom: 4rem;
 
-    > img {
+    @media(max-width: 445px){
+        flex-direction: column;
+      }
+
+    > div img {
       border-radius: 50%;
       border: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_050};
       width: 1.6rem;
@@ -77,10 +92,21 @@ export const Container = styled.div`
       object-fit: cover;
     }
 
-    > p {
+    > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    > div p {
       color: ${({ theme }) => theme.COLORS.WHITE};
       text-align: justify;
       font-size: 1.6rem;
+
+      @media(max-width: 1000px){
+        font-size: 1.3rem;
+      }
     }
 
     svg {
@@ -99,5 +125,9 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.WHITE};
     text-align: justify;
     font-size: 1.6rem;
+
+    @media(max-width: 1000px){
+      font-size: 1.4rem;
+    }
   }
 `

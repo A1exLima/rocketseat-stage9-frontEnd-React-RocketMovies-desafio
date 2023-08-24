@@ -24,6 +24,10 @@ export const Container = styled.div`
 
     padding: 4rem 20rem 2.4rem 20rem;
 
+    @media(max-width: 1000px){
+      padding: 4rem 3rem 2.4rem 3rem;
+    }
+
     > svg {
       font-size: 1.6rem;
       color: ${({ theme }) => theme.COLORS.LILAS};
@@ -41,6 +45,10 @@ export const Content = styled.div`
   width: 100%;
   padding: 0 20rem 15.6rem 20rem;
 
+  @media(max-width: 1000px){
+    padding: 0 3rem 15.6rem 3.8rem;
+  }
+
   > div {
     width: 100%;
     height: 60vh;
@@ -50,11 +58,16 @@ export const Content = styled.div`
 
     &::-webkit-scrollbar {
       width: 0.8rem;
+      
     }
 
     &::-webkit-scrollbar-thumb {
       border-radius: 0.8rem;
       background-color: ${({ theme }) => theme.COLORS.LILAS};
+
+      @media(max-width: 1000px){
+        background: transparent;
+      }
     }
   }
 `

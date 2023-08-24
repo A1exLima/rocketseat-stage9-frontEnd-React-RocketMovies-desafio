@@ -8,4 +8,8 @@ export const Container = styled.span`
   color: ${({ theme }) => theme.COLORS.TEXT_TAG};
   text-align: center;
   font-size: 1.4rem;
+
+  @media(max-width: 1000px){
+    font-size: 1.2rem;
+  }
 `
