@@ -31,13 +31,17 @@ export const Header = styled.header`
       text-align: center;
       font-size: 1.6rem;
     }
+
+    @media (max-width:1000px){
+      display: none;
+    }
   }
 `
 
 export const Form = styled.form`
   grid-area: form;
 
-  width: 34rem;
+  width: 30rem;
   margin: -10rem auto;
   display: flex;
   flex-direction: column;
